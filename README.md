@@ -1,9 +1,7 @@
 # WebScrapper OLX
 
 This is a simple WebScrapper that use Node and MongoDb 
-Just working on the olx brasil site. (https://www.olx.com.br)
-
-
+Just working on the olx brasil website. (https://www.olx.com.br)
 
 ## How to Use
 
@@ -31,7 +29,7 @@ node index
 ```sh
 node perPage
 ```
-Total pages will be configure on config.json on the JsonProperty: **pagesToSearchData**
+Total pages will be configured on the file **config.json** in the JsonProperty: **pagesToSearchData**
 
 ## Flow
 - First will find all data on the page
