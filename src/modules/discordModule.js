@@ -12,7 +12,7 @@ exports.sendDiscordMessage = function(olxModel) {
       .setThumbnail(olxModel.imgLink)
       .addFields(
         { name: 'Price', value: olxModel.price },
-        { name: 'Locale', value: olxModel.locale},
+        { name: 'Locale', value: olxModel.locale },
         { name: 'Created Date', value: olxModel.createdDate }
       )
       .setImage(olxModel.imgLink)
