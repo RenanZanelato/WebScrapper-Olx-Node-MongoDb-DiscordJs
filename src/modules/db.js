@@ -1,5 +1,4 @@
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const { mongoUriConnection } = require('./../config.json');
+const { mongoUriConnection } = require('./../configs/config.json');
 
 const mongoClient = require("mongodb").MongoClient;
 mongoClient.connect(mongoUriConnection)

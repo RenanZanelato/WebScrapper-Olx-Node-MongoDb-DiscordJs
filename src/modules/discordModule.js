@@ -1,5 +1,5 @@
-const { botName, avatar } = require('./../discordBotConfig.json');
-const { discordWebHook } = require('./../config.json');
+const { botName, avatar } = require('./../configs/discordBotConfig.json');
+const { discordWebHook } = require('./../configs/config.json');
 const { MessageEmbed, WebhookClient } = require('discord.js');
 
 exports.sendDiscordMessage = function(olxModel) {
