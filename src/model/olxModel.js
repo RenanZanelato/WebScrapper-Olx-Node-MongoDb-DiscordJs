@@ -1,14 +1,21 @@
 class OlxModel {
-    constructor(id, createdDate) {
-        this.id = id;
-        this.createdDate = createdDate;
+    constructor() {
+        this.id;
+        this.createdDate;
         this.title;
         this.imgLink;
         this.link;
         this.price;
         this.locale;
     }
-    
+    setId(id){
+        this.id = id;
+        return this;
+    }
+    setCreatedDate(createdDate){
+        this.createdDate = createdDate;
+        return this;
+    }
     setTitle(title){
         this.title = title;
         return this;

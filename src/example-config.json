@@ -1,4 +1,4 @@
 {
-	"discordWebHook": "your-discord-webhook-url",
+	"discordWebHook": "https://discord.com/api/webhooks/{userId}/{botToken}",
 	"targetSite": "https://pr.olx.com.br/regiao-de-maringa/regiao-de-maringa/para-a-sua-casa"
 }
