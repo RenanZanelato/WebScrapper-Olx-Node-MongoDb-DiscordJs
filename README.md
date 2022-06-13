@@ -1,3 +1,7 @@
+# DEPRECATED
+- This version was already deprecated.
+- Wew updates will be do just on https://github.com/RenanZanelato/WebScrapper-Olx-Node-MongoDb-TypeScript :)
+
 # WebScrapper OLX
 
 This is a simple WebScrapper that use Node and MongoDb 
